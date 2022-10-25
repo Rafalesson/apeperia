@@ -1,0 +1,28 @@
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--branco);
+    width: 100%;
+    background:  var(--bg-chamada-mobile);
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+}
+
+.cabecalho__logo {
+    width: 75%;
+}
+
+.cabecalho__navegacao ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    line-height: 2;
+}
+
+
+
+.cabecalho__link {
+    font-size: 1.1rem;
+}
