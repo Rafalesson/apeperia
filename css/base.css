@@ -43,3 +43,11 @@
   border: 1px solid var(--azul-claro);
   border-radius: 0.25rem;
 }
+
+.titulo{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  font-family: var(--fonte-IBM);
+}
