@@ -17,12 +17,11 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 100%;
-    padding: 1rem;
+    padding: 2rem 0;
     line-height: 2;
 }
 
-
-
 .cabecalho__link {
     font-size: 1.1rem;
+    margin-right: 1rem;
 }
