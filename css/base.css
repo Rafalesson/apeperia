@@ -51,3 +51,10 @@
   margin-bottom: 1.25rem;
   font-family: var(--fonte-IBM);
 }
+
+@media screen and (min-width: 1024px) {
+  .container {
+      padding-left: calc((100% - 940px)/2);
+      padding-right: calc((100% - 940px)/2);
+  }
+}
