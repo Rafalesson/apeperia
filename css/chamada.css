@@ -4,7 +4,7 @@
     background-color: var(--bg-chamada-mobile);
     color: var(--branco);
     align-items: center;
-    padding: 2rem 6%; 
+    padding: 2rem 0; 
 }
 
 .chamada__titulo {
@@ -22,4 +22,17 @@
     text-align: center;
     line-height: normal;
     margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .chamada__texto{
+        max-width: 550px;
+}
+    
+}
+
+@media screen and (min-width: 1024px) {
+    .chamada{
+        background: none;
+    }
 }

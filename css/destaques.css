@@ -25,6 +25,7 @@
     max-width: 600px;
     margin-bottom: 1rem;
     box-shadow: 0 2px 10px 5px rgba(0,0,0, .1);
+    border-radius: 5px;
 }
 
 .destaques__painel-texto{

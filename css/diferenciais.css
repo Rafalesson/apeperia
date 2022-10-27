@@ -1,6 +1,6 @@
 .diferenciais {
     padding-top: 3.5rem;
-    padding-bottom: 3.5rem;
+    /* padding-bottom: 1.5rem; */
 }
 
 .diferenciais__lista {
@@ -42,4 +42,17 @@
     line-height: normal;
     margin-left: 3rem;
     margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .diferenciais {
+        background-color: var(cinza-claro);
+    }
+    .diferenciais__lista{
+        justify-content: space-around;        
+    }
+
+    .diferenciais__item {
+        max-width: 40%;
+    }
 }
